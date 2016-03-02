@@ -69,8 +69,7 @@ body {
     background-image: url(../images/rain.jpg);
     background-size: cover;
     background-blend-mode: overlay;
-    -web-filter:blur(1px);
-    filter:blur(1px);
+    -web-filter:blur(4px);
 }
 .blur {
     position: absolute;
