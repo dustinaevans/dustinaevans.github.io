@@ -2,12 +2,6 @@
 
 var app = angular.module('pfapp', ['ngRoute']);
 
-//setTimeout(
-//    function asyncBootstrap() {
-//        angular.bootstrap(document, ["pfapp"]);
-//    }, (2 * 1000)
-//);
-
 app.controller('mainCtrl', ['$scope', function ($scope) {
     $scope.menuactive = false;
     $scope.menu = function () {
@@ -25,6 +19,10 @@ app.config(function ($routeProvider) {
         .when('/', {
             templateUrl: 'views/open.html',
             controller: 'mainCtrl'
+        })
+        .when('/about', {
+            templateUrl: 'views/about.html',
+            controller: 'mainCrtl'
         })
         .otherwise({
             redirectTo: '/'
