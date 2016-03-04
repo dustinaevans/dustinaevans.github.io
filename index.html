@@ -11,6 +11,7 @@
     <link rel="icon" href="../../favicon.ico">
     <script>
         window.jQuery || document.write('<script src="https://code.jquery.com/jquery-2.2.1.min.js"><\/script>')
+
     </script>
 
     <title>Dustin Evans</title>
@@ -25,8 +26,8 @@
     <link href="css/cover.css" rel="stylesheet">
 
     <script>
-        $(document).ready(function () {
-            var intfunc = setInterval(function () {
+        $(document).ready(function() {
+            var intfunc = setInterval(function() {
                 var $bar = $('#bar');
                 if ($bar.width() >= 100) {
                     angular.bootstrap(document, ["pfapp"]);
@@ -41,6 +42,7 @@
                 clearInterval(intfunc);
             }
         });
+
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -78,8 +80,8 @@
     </div>
     <div class="site-wrapper" ng-cloak>
         <div class="blur"></div>
+        <div class="underlay"></div>
         <div class="site-wrapper-inner" ng-view>
-
             <div class="mastfoot">
                 <div class="inner">
                     <p><span class="glyphicon glyphicon-copyright-mark"></span> Copyright 2016 Dustin Evans</p>
