@@ -10,28 +10,22 @@ a,
 a:focus {
     color: white;
 }
-
 a:hover {
     color: darkgray;
 }
-
 a[ng-click] {
     cursor: pointer;
 }
-
 .nav-pills>li.active>a {
     color: white;
 }
-
 .nav-pills>li.active>a:hover {
     color: darkgray;
 }
-
 .nav>li>a:hover {
     background-color: transparent;
     color: darkgray;
 }
-
 
 /* Custom default button */
 
@@ -45,7 +39,6 @@ a[ng-click] {
     border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -54,7 +47,6 @@ html,
 body {
     height: 100%;
 }
-
 body {
     height: 100%;
     Width: 100%;
@@ -63,7 +55,6 @@ body {
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
     z-index: 1000;
 }
-
 .site-wrapper {
     display: table;
     width: 100%;
@@ -71,7 +62,6 @@ body {
     /* For at least Firefox */
     min-height: 100%;
 }
-
 .site-wrapper-inner {
     display: table-cell;
     vertical-align: middle;
@@ -80,13 +70,12 @@ body {
     background-blend-mode: overlay;
     position: relative;
 }
-
 .blur {
     display: table-cell;
     vertical-align: middle;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(../images/rain.jpg);
+    background-image: url(../images/wood.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     -webkit-filter: blur(4px);
@@ -94,13 +83,11 @@ body {
     height: 100%;
     filter: blur(5px);
 }
-
 .cover-container {
     margin-right: auto;
     margin-left: auto;
     width: 70%;
 }
-
 .cover {
     padding: 0 20px;
     border-width: medium;
@@ -110,18 +97,15 @@ body {
     padding: 10px;
     box-shadow: 0px 0px 20px black;
 }
-
 .splash {
     display: none;
 }
-
 
 /* Padding for spacing */
 
 .inner {
     padding: 30px;
 }
-
 
 /*
 *  Navbar
@@ -135,7 +119,6 @@ body {
     animation-timing-function: ease-in-out;
     transition: .5s linear all;
 }
-
 .side-bar-active {
     position: absolute;
     left: 10px;
@@ -144,7 +127,6 @@ body {
     animation-timing-function: ease-in-out;
     transition: .5s linear all;
 }
-
 .menu-icon {
     position: relative;
     float: right;
@@ -153,23 +135,19 @@ body {
     animation-timing-function: ease-in-out;
     transition: .5s linear all;
 }
-
 .chevron-right {
     transform: scale(2);
     animation-timing-function: ease-in-out;
     transition: .25s linear all;
 }
-
 .chevron-left {
     transform: rotate(-180deg);
     animation-timing-function: ease-in-out;
     transition: .25s linear all;
 }
-
 .colored-letter {
     color: white;
 }
-
 
 /*
  * Cover
@@ -180,7 +158,6 @@ body {
     font-weight: bold;
 }
 
-
 /*
  * Footer
  */
@@ -190,17 +167,14 @@ body {
     /* IE8 proofing */
     color: rgba(255, 255, 255, .5);
 }
-
 .cursive-title {
     font-family: 'Audiowide', cursive;
     font-size: 40px;
 }
-
 .cursive-text {
     font-family: 'Audiowide', cursive;
     font-size: 18px;
 }
-
 
 /*
  * Affix and center
@@ -240,7 +214,6 @@ body {
         font-size: 28px;
     }
 }
-
 @media (min-width: 992px) {
     .masthead,
     .cover-container {
@@ -252,7 +225,6 @@ body {
         opacity: .7;
     }
 }
-
 
 /*
 [ng-cloak].site-overlay {
@@ -302,6 +274,7 @@ body {
     padding-top: 35px;
 }
 */
+
 
 /*
  * Header
