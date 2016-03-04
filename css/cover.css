@@ -84,9 +84,7 @@ body {
     -webkit-filter: blur(1px);
     display: table-cell;
     vertical-align: middle;
-    background-color: transparent;
     background-size: cover;
-    background-blend-mode: overlay;
     position: relative;
 }
 .cover-container {
