@@ -76,7 +76,7 @@ body {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
     background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Free-Seamless-wood-planks-texture-For-3D-Mapping.jpg);
-    background-size: cover;
+    /*    background-size: cover;*/
     /*    background-blend-mode: overlay;*/
     /*    -webkit-filter: blur(1px);*/
     width: 100%;
