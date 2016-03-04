@@ -78,10 +78,10 @@ body {
     background-image: url(../images/wood.jpg);
     background-size: cover;
     /*    background-blend-mode: overlay;*/
-    -webkit-filter: blur(4px);
+    -webkit-filter: blur(1px);
     width: 100%;
     height: 100%;
-    filter: blur(5px);
+    filter: blur(1px);
 }
 .cover-container {
     margin-right: auto;
